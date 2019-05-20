@@ -12,9 +12,9 @@
         <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap-theme.min.css') }}" />
         <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/dataTables.bootstrap.css') }}" />
         <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/layout.css') }}" />
-
-        <script defer type="text/javascript" src="{{ URL::asset('js/jquery.min.js') }} "></script>
-        <script defer type="text/javascript" src="{{ URL::asset('js/jquery-ui-min.js') }} "></script>
+        <script  type="text/javascript" src="{{ URL::asset('js/jquery.min.js') }} "></script>
+        
+        <script  type="text/javascript" src="{{ URL::asset('js/jquery-ui-min.js') }} "></script>
         <script defer type="text/javascript" src="{{URL::asset('js/moment.js')}} "></script>
         <script defer type="text/javascript" src="{{URL::asset('js/combodate.js')}} "></script>
         <script defer type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }} "></script>

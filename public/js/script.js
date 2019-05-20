@@ -1055,7 +1055,7 @@ $(function(){
 
 		/*Dynamic loading of select list options*/
 		$('#section_id').change(function(){
-			$.get("/reports/dropdown",
+			$.get("/reports/dropdown2",
 				{ option: $(this).val() },
 				function(data) {
 					var test_type = $('#test_type');
